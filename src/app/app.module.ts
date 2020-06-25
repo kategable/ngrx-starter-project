@@ -15,4 +15,5 @@ import { RootStoreModule } from './root-store.module';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

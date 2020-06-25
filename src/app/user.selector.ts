@@ -1,4 +1,4 @@
 import { GlobalState } from './root.reducer';
 
-export const selectName = (state: GlobalState) => state.name;
-export const selectLoading = (state: GlobalState) => !state.loaded;
+export const selectName = (state: GlobalState) => state.user;
+export const selectLoaded = (state: GlobalState) => state.loaded;
