@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Store, select } from '@ngrx/store';
 import { updateUserName } from './user.actions';
-import { GlobalState } from './user.reducer';
-import { selectName } from './user.selector';
+import { GlobalState } from './root.reducer';
+import { selectName, selectLoading } from './user.selector';
 
 @Component({
   selector: 'app-root',
@@ -11,12 +11,18 @@ import { selectName } from './user.selector';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'my-first-ngrx-project';
-  name$: Observable<string>;
+  title = 'my-first-ngrx-project'; 
 
-  constructor(private store: Store<GlobalState>) {
-    this.name$ = store.pipe(select('name'));
-  }
+  constructor(private readonly store: Store<GlobalState>) {
+		this.store.pipe(select(selectName)).subscribe((items) => {
+			console.log(items)
+	});
+			this.store.pipe(select(selectLoading)).subscribe((items) => {
+			console.log(items)
+	});
+	}
+
+	 
 
   changeState(prop: string) {
     this.store.dispatch(updateUserName({ name: 'My Name is Kate Sky' }));

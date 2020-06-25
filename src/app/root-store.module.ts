@@ -2,14 +2,14 @@
 import { NgModule } from '@angular/core';
  
 import { StoreModule } from '@ngrx/store';
-import * as fromRoot  from './user.reducer';
+import * as fromRoot  from './root.reducer';
 
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 @NgModule({
   imports: [
     StoreModule.forRoot( 
-      { app: fromRoot.userReducer },
+      { app: fromRoot.reducer },
       {
         metaReducers: [],
         runtimeChecks: {
