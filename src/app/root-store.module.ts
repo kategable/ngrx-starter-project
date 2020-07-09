@@ -10,7 +10,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
     StoreModule.forRoot(
       { app: fromRoot.reducer },
       {
-        metaReducers: [],
+        metaReducers: fromRoot.metaReducers,
         runtimeChecks: {
           strictActionImmutability: true,
           strictStateImmutability: true,

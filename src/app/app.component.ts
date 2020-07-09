@@ -17,6 +17,6 @@ export class AppComponent {
   loaded$ = this.store.pipe(select(selectLoaded));
 
   changeState(prop: string) {
-    this.store.dispatch(updateUserName({ user: {name :  new Date().getUTCMilliseconds() }}));
+    this.store.dispatch(updateUserName({ user: {name :  'new name' }}));
   }
 }

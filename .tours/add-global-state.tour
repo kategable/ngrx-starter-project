@@ -1,0 +1,196 @@
+{
+  "title": "add global state",
+  "steps": [
+    {
+      "file": "src/app/user.actions.ts",
+      "line": 7,
+      "description": "add a first action with payload",
+      "selection": {
+        "start": {
+          "line": 4,
+          "character": 1
+        },
+        "end": {
+          "line": 7,
+          "character": 3
+        }
+      }
+    },
+    {
+      "file": "src/app/root.reducer.ts",
+      "line": 22,
+      "description": "create an interface to represent the shape of your state object",
+      "selection": {
+        "start": {
+          "line": 19,
+          "character": 1
+        },
+        "end": {
+          "line": 22,
+          "character": 2
+        }
+      }
+    },
+    {
+      "file": "src/app/root.reducer.ts",
+      "line": 27,
+      "description": "create an initialState of your GlobalState object",
+      "selection": {
+        "start": {
+          "line": 24,
+          "character": 1
+        },
+        "end": {
+          "line": 27,
+          "character": 3
+        }
+      }
+    },
+    {
+      "file": "src/app/root.reducer.ts",
+      "description": "create a reducer that will listen for the action and makes state transitions",
+      "selection": {
+        "start": {
+          "line": 29,
+          "character": 1
+        },
+        "end": {
+          "line": 32,
+          "character": 3
+        }
+      }
+    },
+    {
+      "file": "src/app/root.reducer.ts",
+      "line": 43,
+      "description": "Note: The exported reducer function is necessary as function calls are not supported by the AOT compiler.\nThis function is used for registering reducer in StoreModule",
+      "selection": {
+        "start": {
+          "line": 41,
+          "character": 1
+        },
+        "end": {
+          "line": 43,
+          "character": 2
+        }
+      }
+    },
+    {
+      "file": "src/app/root-store.module.ts",
+      "line": 28,
+      "description": "create a module for ngrx set up"
+    },
+    {
+      "file": "src/app/root-store.module.ts",
+      "line": 4,
+      "description": "use module import with any name for readability",
+      "selection": {
+        "start": {
+          "line": 4,
+          "character": 1
+        },
+        "end": {
+          "line": 5,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "src/app/root-store.module.ts",
+      "line": 19,
+      "description": "import StoreModule with a root reducer that will handle the app level state managment.",
+      "selection": {
+        "start": {
+          "line": 9,
+          "character": 3
+        },
+        "end": {
+          "line": 19,
+          "character": 7
+        }
+      }
+    },
+    {
+      "file": "src/app/root-store.module.ts",
+      "line": 25,
+      "description": "import StoreDevToolsModule for Redux dev tools tracking",
+      "selection": {
+        "start": {
+          "line": 20,
+          "character": 2
+        },
+        "end": {
+          "line": 25,
+          "character": 8
+        }
+      }
+    },
+    {
+      "file": "src/app/user.selector.ts",
+      "line": 14,
+      "description": "create selectors for each piece of state",
+      "selection": {
+        "start": {
+          "line": 5,
+          "character": 1
+        },
+        "end": {
+          "line": 14,
+          "character": 3
+        }
+      }
+    },
+    {
+      "file": "src/app/app.component.ts",
+      "line": 15,
+      "description": "add store to constructor"
+    },
+    {
+      "file": "src/app/app.component.ts",
+      "line": 17,
+      "description": "use observables to get data from state via selectors",
+      "selection": {
+        "start": {
+          "line": 16,
+          "character": 3
+        },
+        "end": {
+          "line": 17,
+          "character": 51
+        }
+      }
+    },
+    {
+      "file": "src/app/app.component.html",
+      "line": 420,
+      "description": "use async pipe to display data",
+      "selection": {
+        "start": {
+          "line": 419,
+          "character": 3
+        },
+        "end": {
+          "line": 420,
+          "character": 42
+        }
+      }
+    },
+    {
+      "file": "src/app/app.component.ts",
+      "line": 21,
+      "description": "dispatch Action via the dispatch method",
+      "selection": {
+        "start": {
+          "line": 19,
+          "character": 2
+        },
+        "end": {
+          "line": 21,
+          "character": 4
+        }
+      }
+    }
+  ],
+  "ref": "master",
+  "isPrimary": true
+}

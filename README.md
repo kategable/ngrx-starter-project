@@ -1,6 +1,8 @@
-# MyFirstProject
+# MyFirstNgrxProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+See code tour for details
+
+[[Watch the video]](https://www.youtube.com/embed/xWOpl0XMzIU)
 
 ## Development server
 
