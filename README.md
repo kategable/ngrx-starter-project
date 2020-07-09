@@ -1,4 +1,4 @@
-# MyFirstNgrxProject
+## NGRX-Starter-Project
 
 See code tour for details
 
