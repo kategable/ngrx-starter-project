@@ -14,7 +14,8 @@
           "line": 7,
           "character": 3
         }
-      }
+      },
+      "title": "Add Action"
     },
     {
       "file": "src/app/root.reducer.ts",
@@ -29,7 +30,8 @@
           "line": 22,
           "character": 2
         }
-      }
+      },
+      "title": "Add Interface"
     },
     {
       "file": "src/app/root.reducer.ts",
@@ -44,7 +46,8 @@
           "line": 27,
           "character": 3
         }
-      }
+      },
+      "title": "Init State"
     },
     {
       "file": "src/app/root.reducer.ts",
@@ -58,7 +61,8 @@
           "line": 32,
           "character": 3
         }
-      }
+      },
+      "title": "Add Reducer"
     },
     {
       "file": "src/app/root.reducer.ts",
@@ -73,12 +77,14 @@
           "line": 43,
           "character": 2
         }
-      }
+      },
+      "title": "Add Reducer function"
     },
     {
       "file": "src/app/root-store.module.ts",
       "line": 28,
-      "description": "create a module for ngrx set up"
+      "description": "create a module for ngrx set up",
+      "title": "Add RootStoreModule"
     },
     {
       "file": "src/app/root-store.module.ts",
@@ -93,7 +99,8 @@
           "line": 5,
           "character": 1
         }
-      }
+      },
+      "title": "Import from Reducer"
     },
     {
       "file": "src/app/root-store.module.ts",
@@ -108,7 +115,8 @@
           "line": 19,
           "character": 7
         }
-      }
+      },
+      "title": "Import StoreModule with Reducer"
     },
     {
       "file": "src/app/root-store.module.ts",
@@ -123,7 +131,14 @@
           "line": 25,
           "character": 8
         }
-      }
+      },
+      "title": "Import StoreDevtools"
+    },
+    {
+      "file": "src/app/app.module.ts",
+      "line": 13,
+      "description": "Import to AppModule",
+      "title": "Import RootStoreModule"
     },
     {
       "file": "src/app/user.selector.ts",
@@ -138,12 +153,14 @@
           "line": 14,
           "character": 3
         }
-      }
+      },
+      "title": "Create Selectors"
     },
     {
       "file": "src/app/app.component.ts",
       "line": 15,
-      "description": "add store to constructor"
+      "description": "add store to constructor",
+      "title": "Add Store to Component"
     },
     {
       "file": "src/app/app.component.ts",
@@ -158,7 +175,8 @@
           "line": 17,
           "character": 51
         }
-      }
+      },
+      "title": "Assign values from selectors"
     },
     {
       "file": "src/app/app.component.html",
@@ -173,7 +191,8 @@
           "line": 420,
           "character": 42
         }
-      }
+      },
+      "title": "Display values with async pipe"
     },
     {
       "file": "src/app/app.component.ts",
@@ -188,7 +207,8 @@
           "line": 21,
           "character": 4
         }
-      }
+      },
+      "title": "Dispatch Action"
     }
   ],
   "ref": "master",
